@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(while read file)",
+      "Bash(do if ! grep -q \"React\\.\" \"$file\")",
+      "Bash(then echo \"$file: React imported but not used directly\" fi done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
