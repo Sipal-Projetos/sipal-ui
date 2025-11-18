@@ -4,7 +4,13 @@
       "Bash(npm run build:*)",
       "Bash(while read file)",
       "Bash(do if ! grep -q \"React\\.\" \"$file\")",
-      "Bash(then echo \"$file: React imported but not used directly\" fi done)"
+      "Bash(then echo \"$file: React imported but not used directly\" fi done)",
+      "Bash(npx storybook@latest init --yes)",
+      "Bash(npx storybook@latest init --builder vite --yes --skip-install)",
+      "Bash(npm install:*)",
+      "Bash(npm run storybook:*)",
+      "Bash(taskkill:*)",
+      "Bash($null)"
     ],
     "deny": [],
     "ask": []
