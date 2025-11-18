@@ -1,6 +1,6 @@
 {
   "name": "@sipal/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca de componentes React para Sipal - UI moderna com Tailwind CSS 4.1, Radix UI e TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
