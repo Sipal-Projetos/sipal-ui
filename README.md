@@ -98,14 +98,21 @@ function App() {
 
 ## 📚 Documentação
 
-- [Componentes Fundamentais](./docs/fundamentals.md)
-- [Formulários](./docs/forms.md)
-- [Visualização de Dados](./docs/data-display.md)
-- [Gráficos (Sipal Charts)](./docs/charts.md)
-- [Navegação](./docs/navigation.md)
-- [Feedback & Overlays](./docs/feedback.md)
-- [Guia de Temas](./docs/theming.md)
-- [Exemplos](./docs/examples.md)
+### 🎯 Início Rápido
+- **[📋 Índice Visual de Componentes](./COMPONENT_INDEX.md)** - Referência rápida de todos os 56 componentes
+- **[📖 Índice de Documentação](./docs/README.md)** - Portal completo da documentação
+
+### 📖 Guias Detalhados
+- **[Guia Completo - Parte 1](./docs/components-guide.md)** - Fundamentos & Formulários (22 componentes)
+- **[Guia Completo - Parte 2](./docs/components-guide-part2.md)** - Visualização de Dados (11 componentes)
+- **[Guia Completo - Parte 3](./docs/components-guide-part3.md)** - Charts & Navegação (15 componentes)
+- **[Guia Completo - Parte 4](./docs/components-guide-part4.md)** - Feedback & Overlays (8 componentes)
+
+### 🎨 Temas e Arquitetura
+- [Arquitetura e Padrões](./docs/architecture.md)
+- [Sistema de Temas](./docs/theming.md)
+- [Sipal Charts](./docs/charts.md)
+- [Exemplos Práticos](./docs/examples.md)
 
 ---
 
