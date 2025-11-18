@@ -169,6 +169,12 @@ Crie ou edite seu arquivo `src/styles/theme.css`:
 
 ---
 
+## 📄 Licença
+
+MIT © Sipal
+
+---
+
 ## 🔗 Links Úteis
 
 - [Radix UI](https://www.radix-ui.com/)
