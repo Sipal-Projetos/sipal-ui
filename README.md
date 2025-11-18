@@ -169,18 +169,6 @@ Crie ou edite seu arquivo `src/styles/theme.css`:
 
 ---
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md).
-
----
-
-## 📄 Licença
-
-MIT © Sipal
-
----
-
 ## 🔗 Links Úteis
 
 - [Radix UI](https://www.radix-ui.com/)
