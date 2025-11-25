@@ -1,6 +1,6 @@
-# 📘 Sipal UI
+# Sipal UI
 
-**Versão:** 1.0.0
+**Versão:** 1.0.5
 
 Biblioteca de componentes React moderna e completa para construção de interfaces administrativas e dashboards.
 
@@ -147,25 +147,65 @@ Crie ou edite seu arquivo `src/styles/theme.css`:
 
 ---
 
-## 🧩 Categorias de Componentes
+## 🧩 Lista de Componentes
 
-### Fundamentos (7 componentes)
-`Button`, `Icon Button`, `Badge`, `Separator`, `Skeleton`, `Aspect Ratio`, `Label`
+| Componente | Exemplo de Uso Básico |
+|------------|-----------------------|
+| **Button** | `<Button>Salvar</Button>` |
+| **Badge** | `<Badge>Novo</Badge>` |
+| **Separator** | `<Separator />` |
+| **Skeleton** | `<Skeleton className="h-4 w-full" />` |
+| **Aspect Ratio** | `<AspectRatio ratio={16/9}><img ... /></AspectRatio>` |
+| **Label** | `<Label htmlFor="email">Email</Label>` |
+| **Input** | `<Input placeholder="Email" />` |
+| **Password Input** | `<PasswordInput />` |
+| **Textarea** | `<Textarea />` |
+| **Checkbox** | `<Checkbox />` |
+| **Radio Group** | `<RadioGroup><RadioGroupItem value="1" /></RadioGroup>` |
+| **Switch** | `<Switch />` |
+| **Select** | `<Select><SelectTrigger><SelectValue /></SelectTrigger></Select>` |
+| **MultiSelect** | `<MultiSelect options={[]} />` |
+| **Slider** | `<Slider defaultValue={[50]} />` |
+| **Date Picker** | `<DatePicker />` |
+| **Date Range Picker** | `<DateRangePicker />` |
+| **Time Picker** | `<TimePicker />` |
+| **File Upload** | `<FileUpload />` |
+| **Color Picker** | `<ColorPicker />` |
+| **Form** | `<Form {...form}><form>...</form></Form>` |
+| **Card** | `<Card><CardContent>Content</CardContent></Card>` |
+| **KPI Card** | `<KpiCard title="Total" value="100" />` |
+| **Table** | `<Table><TableRow><TableCell>Cell</TableCell></TableRow></Table>` |
+| **DataTable** | `<DataTable columns={columns} data={data} />` |
+| **Accordion** | `<Accordion><AccordionItem value="1">...</AccordionItem></Accordion>` |
+| **Collapsible** | `<Collapsible>...</Collapsible>` |
+| **Scroll Area** | `<ScrollArea>...</ScrollArea>` |
+| **Timeline** | `<Timeline items={[]} />` |
+| **Tree View** | `<TreeView data={[]} />` |
+| **Code Block** | `<CodeBlock code="..." />` |
+| **Resizable** | `<ResizablePanelGroup>...</ResizablePanelGroup>` |
+| **Bar Chart** | `<BarChart data={data} />` |
+| **Line Chart** | `<LineChart data={data} />` |
+| **Area Chart** | `<AreaChart data={data} />` |
+| **Pie Chart** | `<PieChart data={data} />` |
+| **Scatter Chart** | `<ScatterChart data={data} />` |
+| **Mixed Chart** | `<MixedChart data={data} />` |
+| **Avatar** | `<Avatar><AvatarImage src="..." /></Avatar>` |
+| **Tabs** | `<Tabs><TabsList>...</TabsList></Tabs>` |
+| **Breadcrumb** | `<Breadcrumb>...</Breadcrumb>` |
+| **Pagination** | `<Pagination>...</Pagination>` |
+| **Stepper** | `<Stepper steps={[]} />` |
+| **Menubar** | `<Menubar>...</Menubar>` |
+| **Dropdown Menu** | `<DropdownMenu>...</DropdownMenu>` |
+| **Side Navigation** | `<SideNavigation>...</SideNavigation>` |
+| **Alert** | `<Alert><AlertTitle>Info</AlertTitle></Alert>` |
+| **Dialog** | `<Dialog><DialogTrigger>Open</DialogTrigger></Dialog>` |
+| **Sheet** | `<Sheet><SheetTrigger>Open</SheetTrigger></Sheet>` |
+| **Popover** | `<Popover><PopoverTrigger>Open</PopoverTrigger></Popover>` |
+| **Tooltip** | `<Tooltip><TooltipTrigger>Hover</TooltipTrigger></Tooltip>` |
+| **Toast** | `toast("Message")` |
+| **Progress** | `<Progress value={50} />` |
+| **Empty State** | `<EmptyState title="No Data" />` |
 
-### Formulários (15 componentes)
-`Input`, `Password Input`, `Textarea`, `Checkbox`, `Radio Group`, `Switch`, `Select`, `MultiSelect`, `Slider`, `Date Picker`, `Date Range Picker`, `Time Picker`, `File Upload`, `Color Picker`, `Form`
-
-### Visualização de Dados (11 componentes)
-`Card`, `KPI Card`, `Table`, `Data Table`, `Accordion`, `Collapsible`, `Scroll Area`, `Timeline`, `Tree View`, `Code Block`, `Resizable`
-
-### Gráficos (7 componentes)
-`Chart Container`, `Bar Chart`, `Line Chart`, `Area Chart`, `Pie Chart`, `Scatter Chart`, `Mixed Chart`
-
-### Navegação (8 componentes)
-`Avatar`, `Tabs`, `Breadcrumb`, `Pagination`, `Stepper`, `Menubar`, `Dropdown Menu`, `Side Navigation`
-
-### Feedback & Overlays (8 componentes)
-`Alert`, `Dialog`, `Sheet`, `Popover`, `Tooltip`, `Toast`, `Progress`, `Empty State`
 
 ---
 

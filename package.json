@@ -1,6 +1,6 @@
 {
   "name": "@sipal/ui",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Biblioteca de componentes React para Sipal - UI moderna com Tailwind CSS 4.1, Radix UI e TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -23,7 +23,8 @@
     "lint": "eslint src --ext .ts,.tsx",
     "clean": "rm -rf dist",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "update-version": "node scripts/update-version.js"
   },
   "keywords": [
     "react",
